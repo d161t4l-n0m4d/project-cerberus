@@ -216,4 +216,4 @@ sitrep / ctx / surface → operator picture
 
 ## 11. Mental model
 
-Cerberus is not a monolithic shell of scripts. It is a **small kernel** (config, evidence, phase, C2) plus a **plugin marketplace** with strict metadata, operated through **CLI or MCP**, with a **Rust beacon** for post-exploitation. LazyOwn’s operator habits (ctx, note, loot, pivot, tasks, engage) are preserved as Cerberus-named surfaces on top of that kernel.
+Cerberus is not a monolithic shell of scripts. It is a **small kernel** (config, evidence, phase, C2) plus a **plugin marketplace** with strict metadata, operated through **CLI or MCP**, with a **Rust beacon** for post-exploitation. Ghost operator habits (ctx, note, loot, pivot, tasks, engage) are preserved as Cerberus-named surfaces on top of that kernel.
