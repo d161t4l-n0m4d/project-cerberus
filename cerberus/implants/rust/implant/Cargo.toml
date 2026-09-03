@@ -1,0 +1,25 @@
+[package]
+name = "cerberus-implant"
+version = "0.3.0"
+edition = "2021"
+description = "Cerberus AES-GCM multi-session implant"
+license = "GPL-3.0-or-later"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+byteorder = "1"
+hostname = "0.4"
+whoami = "1.5"
+base64 = "0.22"
+aes-gcm = "0.10"
+sha2 = "0.10"
+rand = "0.8"
+libc = "0.2"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
+panic = "abort"
